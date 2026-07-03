@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data files (Kaggle datasets — large, do not commit)
+data/
+*.csv
+*.csv.gz
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DuckDB temp spill files
+.tmp/
+*.duckdb
+*.duckdb.wal
